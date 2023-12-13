@@ -1,0 +1,12 @@
+name: first workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: macos-13
+    steps:
+    - name: print greetings
+      run: echo "Hello World"
+    - name: print bye
+      run: "Bye"
+      
+
